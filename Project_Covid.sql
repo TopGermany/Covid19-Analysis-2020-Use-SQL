@@ -1,6 +1,6 @@
 ﻿CREATE DATABASE Project_Covid
 
--- Sử dụng DataBase
+-- SỬ DỤNG DATABASE
 USE Project_Covid
 
 -- SỬ DỤNG TABLE
@@ -125,4 +125,5 @@ SELECT cd.continent,
 FROM CovidDeaths AS cd
 INNER JOIN CovidVaccinations AS cv ON cd.location = cv.location
 AND cd.date = cv.date
+
 WHERE cd.continent IS NOT NULL
