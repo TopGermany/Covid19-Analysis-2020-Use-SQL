@@ -7,8 +7,6 @@ USE Project_Covid
 SELECT * FROM CovidDeaths
 SELECT * FROM CovidVaccinations
 
-
-
 -- CHỌN NHỮNG CỘT CẦN SỬ DỤNG
 SELECT location,
 		date,
@@ -127,3 +125,4 @@ INNER JOIN CovidVaccinations AS cv ON cd.location = cv.location
 AND cd.date = cv.date
 
 WHERE cd.continent IS NOT NULL
+
