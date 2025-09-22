@@ -36,7 +36,7 @@ Main objectives:
 - `population` (population of the country)  
 
 ## 🛠️ Tools  
-**Excel** (Data Cleaning)
+- **Excel** (Data Cleaning)
 
 - **SQL Server** (Used to query data and perform in-depth SQL analysis)  
 
