@@ -9,16 +9,31 @@ Main objectives:
 - Provide a global overview of the pandemic.  
 
 ## 📂 Dataset  
-- Table used: **CovidDeaths**  
-- Key columns:  
-  - `location` (country/territory)  
-  - `continent` (continent)  
-  - `date` (recorded date)  
-  - `total_cases` (total confirmed cases)  
-  - `new_cases` (new daily cases)  
-  - `total_deaths` (total confirmed deaths)  
-  - `new_deaths` (new daily deaths)  
-  - `population` (population of the country)  
+- Tables used:  
+  - **CovidDeaths**  
+  - **CovidVaccinations**  
+
+### Key columns:  
+
+#### CovidDeaths  
+- `location` (country/territory)  
+- `continent` (continent)  
+- `date` (recorded date)  
+- `total_cases` (total confirmed cases)  
+- `new_cases` (new daily cases)  
+- `total_deaths` (total confirmed deaths)  
+- `new_deaths` (new daily deaths)  
+- `population` (population of the country)  
+
+#### CovidVaccinations  
+- `location` (country/territory)  
+- `continent` (continent)  
+- `date` (recorded date)  
+- `new_vaccinations` (new daily vaccinations)  
+- `total_vaccinations` (cumulative vaccinations)  
+- `people_vaccinated` (total people vaccinated with at least one dose)  
+- `people_fully_vaccinated` (total people fully vaccinated)  
+- `population` (population of the country)  
 
 ## 🛠️ Tools  
 **Excel** (Data Cleaning)
